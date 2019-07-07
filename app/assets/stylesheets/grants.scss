@@ -1,3 +1,16 @@
-// Place all the styles related to the Grants controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}

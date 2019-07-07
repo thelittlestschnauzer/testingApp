@@ -33,5 +33,8 @@ On to URL's and how we interact with them
   We will also have a grants_controller.rb however this will live outside of the grants folder. 
 
   2. Add form for new grant posts 
+      grants/new is the url for the new grant form 
+  
+  3. Persists to the DB and redirects to the root_path
 
   
