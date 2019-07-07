@@ -1,1 +1,32 @@
-<h1>Testing out Features</h1>
+<div class="home-page">
+  <h1 class="main-title">List of Grants</h1>
+
+   <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-content">
+          <% @grants.each do |grant| %>
+            <span class="card-title"><%= grant.name %></span>
+            <p class="card-description"></p>
+          <% end %>
+          </div><!--end card content -->
+          <div class="card-action">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div><!-- end of card action -->
+          </div>
+        </div><!-- end of card -->
+
+        <!-- next card -->
+
+
+      </div><!-- end of col -->
+    </div>
+   </div><!-- container -->
+
+
+  </div><!-- end of home-page -->
+
+
+  
