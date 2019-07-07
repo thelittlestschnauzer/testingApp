@@ -1,8 +1,11 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
-  resources :comments
-  resources :grants
+
+  resources :grants do  
+    resources :comments, module: :grants  
+  end 
+
   namespace :admin do
       resources :users
 

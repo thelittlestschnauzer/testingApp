@@ -22,3 +22,7 @@ What is the database structure?
     belongs_to :grant
     belongs_to :user
   
+On to URL's and how we interact with them 
+
+  1. resources :grant will cover all of the grant url's and since we know that a comment can't exist without a grant post than we can nest these routes within the grant routes. 
+  
